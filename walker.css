@@ -3,4 +3,27 @@
 @define-color base #121212;
 @define-color border #EAEAEA88;
 @define-color foreground #EAEAEA;
-@define-color background #121212;
+@define-color background rgba(30, 30, 30, 0.8);
+
+#box {
+  background-color: @background;
+  color: @foreground;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+#input,
+#password,
+#typeahead {
+  background-color: transparent;
+  color: @text;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+#search {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 6px;
+  border: 2px solid alpha(@border, 0.35);
+}
