@@ -1,6 +1,10 @@
-@define-color background-color #121212;
+@define-color background-color rgba(18, 18, 18, 0.8);
 @define-color border-color #8A8A8D;
 @define-color label #8A8A8D;
 @define-color image #8A8A8D;
-@define-color progress #8A8A8D;
+@define-color progress #D35F5F;
 
+window#osd {
+  border-radius: 999px;
+  background: @background-color;
+}
