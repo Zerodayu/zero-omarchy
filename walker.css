@@ -1,118 +1,15 @@
-@define-color selected-text #B91C1C;
-@define-color text #EAEAEA;
+@define-color selected-text #A00000;
+@define-color text #ffffff;
 @define-color base #121212;
-@define-color border #EAEAEA88;
-@define-color foreground #EAEAEA;
-@define-color background rgba(30, 30, 30, 0.9);
-
-/* * {
-  all: unset;
-}
-
-* {
-  font-family: monospace;
-  font-size: 18px;
-  color: @text;
-} */
-
-scrollbar {
-  opacity: 0;
-}
-
-.normal-icons {
-  -gtk-icon-size: 16px;
-}
-
-.large-icons {
-  -gtk-icon-size: 32px;
-}
+@define-color border #A00000;
+@define-color foreground #bebebe;
+@define-color background #333333;
 
 .box-wrapper {
-  background: alpha(@base, 0.9);
-  padding: 20px;
   border-radius: 16px;
-  border: 2px solid @border;
 }
-
-.preview-box {}
-
-.box {}
 
 .search-container {
   background: transparent;
-  border-radius: 8px;
-  border: 0px solid alpha(@selected-text, 0.90);
-  border-bottom-width: 2px;
+  border-radius: 14px;
  }
-
-.input placeholder {
-  background: transparent;
-  opacity: 0.5;
-}
-
-.input {
-}
-
-.input:focus,
-.input:active {
-  box-shadow: none;
-  outline: none;
-}
-
-.content-container {}
-
-.placeholder {
-  background: transparent;
-}
-
-.scroll {}
-
-.list {}
-
-child,
-child>* {}
-
-child:hover .item-box {}
-
-child:selected .item-box {}
-
-child:selected .item-box * {
-  color: @selected-text;
-}
-
-.item-box {
-  padding-left: 14px;
-}
-
-.item-text-box {
-  all: unset;
-  padding: 14px 0;
-}
-
-.item-text {}
-
-.item-subtext {
-  font-size: 0px;
-  min-height: 0px;
-  margin: 0px;
-  padding: 0px;
-}
-
-.item-image {
-  margin-right: 14px;
-  -gtk-icon-transform: scale(0.9);
-}
-
-.current {
-  font-style: italic;
-}
-
-.keybind-hints {
-  background: @background;
-  padding: 10px;
-  margin-top: 10px;
-}
-
-.preview {
-  background: @background;
-}
