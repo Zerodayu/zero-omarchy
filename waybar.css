@@ -12,6 +12,10 @@ font-family
 - all #workspaces
 ) */
 
+#clock {
+  font-weight: bold;
+}
+
 #waybar {
   background-color: alpha(@background, 0.8);
 }
