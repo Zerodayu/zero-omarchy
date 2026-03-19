@@ -5,11 +5,12 @@
 @define-color foreground #bebebe;
 @define-color background #333333;
 
-.box-wrapper {
+window .box-wrapper {
+  background: alpha(@base, 0.8);
   border-radius: 16px;
 }
 
-.search-container {
+window .search-container {
   background: transparent;
-  border-radius: 14px;
+  border-bottom: 2px solid @border;
 }
