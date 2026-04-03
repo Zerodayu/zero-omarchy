@@ -49,7 +49,7 @@ return {
 		},
 		dev_tools = {
 			autostart = false, -- autostart devtools server if not detected
-			auto_open_browser = true, -- Automatically opens devtools in the browser
+			auto_open_browser = false, -- Automatically opens devtools in the browser
 		},
 		widget_guides = {
 			enabled = true, -- Your preference
