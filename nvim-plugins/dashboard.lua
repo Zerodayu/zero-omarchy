@@ -1,28 +1,35 @@
 -- Change this line to set your project directory
 local PROJECT_DIR = "~/Drives/Files/Projects"
-
 return {
   {
     "folke/snacks.nvim",
     opts = function(_, opts)
-      -- Add "p" key to dashboard
+      -- Add "P" key to dashboard
       table.insert(opts.dashboard.preset.keys, 3, {
-        icon = "",
+        icon = "",
         key = "P",
         desc = "Open Projects",
         action = function()
-          vim.cmd("cd " .. PROJECT_DIR)
-          Snacks.picker.files()
+          Snacks.picker.projects({
+            dev = { PROJECT_DIR },           -- Search in your projects directory
+            patterns = { ".git" },            -- Only show folders with .git
+            recent = false,                   -- Don't include recent projects from elsewhere
+            max_depth = 2,                    -- Search up to 2 levels deep
+          })
         end,
       })
     end,
     keys = {
-      -- Override <leader>fp keybinding
+      -- Override <leader>fP keybinding
       { 
         "<leader>fP", 
         function()
-          vim.cmd("cd " .. PROJECT_DIR)
-          Snacks.picker.files()
+          Snacks.picker.projects({
+            dev = { PROJECT_DIR },           -- Search in your projects directory
+            patterns = { ".git" },            -- Only show folders with .git
+            recent = false,                   -- Don't include recent projects from elsewhere
+            max_depth = 2,                    -- Search up to 2 levels deep
+          })
         end, 
         desc = "Open Projects" 
       },
