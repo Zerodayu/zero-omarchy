@@ -7,8 +7,8 @@ return {
     opts = function(_, opts)
       -- Add "p" key to dashboard
       table.insert(opts.dashboard.preset.keys, 3, {
-        icon = " ",
-        key = "p",
+        icon = "",
+        key = "P",
         desc = "Open Projects",
         action = function()
           vim.cmd("cd " .. PROJECT_DIR)
@@ -19,7 +19,7 @@ return {
     keys = {
       -- Override <leader>fp keybinding
       { 
-        "<leader>fp", 
+        "<leader>fP", 
         function()
           vim.cmd("cd " .. PROJECT_DIR)
           Snacks.picker.files()
