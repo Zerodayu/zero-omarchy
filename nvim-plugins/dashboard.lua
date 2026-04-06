@@ -6,7 +6,7 @@ return {
     opts = function(_, opts)
       -- Add "P" key to dashboard
       table.insert(opts.dashboard.preset.keys, 3, {
-        icon = "",
+        icon = "",
         key = "P",
         desc = "Open Projects",
         action = function()
