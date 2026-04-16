@@ -20,6 +20,10 @@ font-family
   background-color: alpha(@background, 0.8);
 }
 
+#custom-update {
+  color: #19d14a;
+}
+
 #workspaces {
   background: transparent;
   padding: 10px 6px;
