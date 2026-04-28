@@ -11,6 +11,9 @@ font-family
 
 - all #workspaces
 ) */
+* {
+  font-family: 'CaskaydiaMono Nerd Font';
+}
 
 #clock {
   font-weight: bold;
