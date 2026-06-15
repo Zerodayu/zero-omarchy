@@ -27,6 +27,18 @@
 
 <br />
 
+#### Opencode global instructions and rules (optional)
+
+- Sync files for consistent changes
+
+```sh
+ln -s -f ~/.config/omarchy/themes/zer0marchy/opencode/permissions.json ~/.config/opencode/opencode.json
+```
+
+```sh
+ln -s -f ~/.config/omarchy/themes/zer0marchy/opencode/AGENTS.md ~/.config/opencode/AGENTS.md
+```
+
 #### Waybar integrate [lvsk-calendar](https://github.com/Gianluska/lvsk-calendar) for tui calendar
 
 - opt-in (Install > AUR > _lvsk-calendar_)
