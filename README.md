@@ -8,9 +8,9 @@
 
 ### Other Wallpapers
 
-| ![Mountains](backgrounds/mountains.jpg) | ![Firewatch](backgrounds/firewatch.jpg) |
-| --------------------------------------- | --------------------------------------- |
-| ![Samurai](backgrounds/samurai.jpg)     | ![Nature](backgrounds/nature.jpg)       |
+| <img src="backgrounds/mountains.jpg" width="350" /> | <img src="backgrounds/firewatch.jpg" width="320" /> |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="backgrounds/samurai.jpg" width="350" />   | <img src="backgrounds/nature.jpg" width="320" />    |
 
 #### Custom Lazyvim Theme [lazy-min.nvim](https://github.com/Zerodayu/lazy-min.nvim)
 
