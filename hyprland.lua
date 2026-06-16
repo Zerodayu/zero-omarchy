@@ -4,30 +4,51 @@
 local config = {}
 
 -- General settings
-config.general = {
+hl.config({
 	col = {
 		active_border = "rgb(B91C1C)",
 	},
-	-- gaps_in = 4,
-	-- gaps_out = 6,
-}
+	decoration = {
+
+		active_opacity = 0.90,
+		inactive_opacity = 0.80,
+		rounding = 8,
+		blur = {
+			enabled = true,
+			size = 4,
+			passes = 3,
+			ignore_opacity = true,
+			noise = 0.1,
+			contrast = 1.5,
+			xray = false,
+			new_optimizations = true,
+		},
+	},
+})
+-- config.general = {
+-- 	col = {
+-- 		active_border = "rgb(B91C1C)",
+-- 	},
+-- 	-- gaps_in = 4,
+-- 	-- gaps_out = 6,
+-- }
 
 -- Decoration settings
-config.decoration = {
-	active_opacity = 0.90,
-	inactive_opacity = 0.80,
-	rounding = 8,
-	blur = {
-		enabled = true,
-		size = 4,
-		passes = 3,
-		ignore_opacity = true,
-		noise = 0.1,
-		contrast = 1.5,
-		xray = false,
-		new_optimizations = true,
-	},
-}
+-- config.decoration = {
+-- 	active_opacity = 0.90,
+-- 	inactive_opacity = 0.80,
+-- 	rounding = 8,
+-- 	blur = {
+-- 		enabled = true,
+-- 		size = 4,
+-- 		passes = 3,
+-- 		ignore_opacity = true,
+-- 		noise = 0.1,
+-- 		contrast = 1.5,
+-- 		xray = false,
+-- 		new_optimizations = true,
+-- 	},
+-- }
 
 -- Animation settings
 config.animations = {
