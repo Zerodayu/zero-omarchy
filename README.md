@@ -8,10 +8,12 @@
 
 ### Other Wallpapers
 
-![Mountains](backgrounds/mountains.jpg)
-![Firewatch](backgrounds/firewatch.jpg)
-![Samurai](backgrounds/samurai.jpg)
-![Nature](backgrounds/nature.jpg)
+| Name      | Preview                                 |
+| --------- | --------------------------------------- |
+| Mountains | ![Mountains](backgrounds/mountains.jpg) |
+| Firewatch | ![Firewatch](backgrounds/firewatch.jpg) |
+| Samurai   | ![Samurai](backgrounds/samurai.jpg)     |
+| Nature    | ![Nature](backgrounds/nature.jpg)       |
 
 #### Custom Lazyvim Theme [lazy-min.nvim](https://github.com/Zerodayu/lazy-min.nvim)
 
@@ -28,10 +30,12 @@
 <br />
 
 #### Arch Logo & Icon
+
 ```sh
 󰣇
 ```
-```sh
+
+```shell
                    █
                   ▟█▙
                  ▟███▙
@@ -53,7 +57,6 @@
  ▟▛▀                               ▀▜▙
 
 ```
-
 
 #### Opencode global instructions and rules (optional)
 
